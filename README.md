@@ -24,7 +24,9 @@ gibt es den Knopf «Ich hatte recht».
 
 ## Starten
 
-Ordner herunterladen und **`index.html` doppelklicken** – die App öffnet sich im Browser.
+- **Direkt im Browser:** <https://liamrothdev.github.io/voci-trainer/> – diesen Link kannst du weiterschicken.
+  Auf dem Handy kannst du die Seite über «Zum Home-Bildschirm hinzufügen» wie eine App speichern.
+- **Ohne Internet:** Ordner herunterladen und `index.html` doppelklicken.
 
 ## Tastenkürzel
 
@@ -45,10 +47,9 @@ Ordner herunterladen und **`index.html` doppelklicken** – die App öffnet sich
 
 ## Woher die Vokabeln stammen
 
-Das eingebaute Set «Englisch Voci 1.1+1.3» (348 Begriffe) stammt aus einem öffentlichen
-[Quizlet-Set](https://quizlet.com/de/karteikarten/englisch-voci-1113-1220432163) einer anderen Person und ist
-**nur zum persönlichen Lernen** gedacht. Darum ist dieses Repository privat. Bitte nicht öffentlich machen
-(auch nicht über GitHub Pages), solange die Liste drin ist – ausser die Person, die das Set erstellt hat, ist einverstanden.
+Das eingebaute Set «Englisch Voci 1.1+1.3» (348 Begriffe) stammt aus einem
+[Quizlet-Set](https://quizlet.com/de/karteikarten/englisch-voci-1113-1220432163) und wird mit Einverständnis
+der Person geteilt, die es erstellt hat.
 
 Beim Übernehmen wurden Leerzeichen-Fehler aufgeräumt (z. B. «etw . tun» → «etw. tun», «non - binary» → «non-binary»)
 und sechs eindeutige Tippfehler korrigiert:

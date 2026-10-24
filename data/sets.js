@@ -2,8 +2,8 @@
  * Eingebaute Vokabel-Sets.
  * Format pro Karte: [Begriff, Bedeutung]. Eigene Sets lassen sich auch direkt in der App erstellen.
  *
- * «Englisch Voci 1.1+1.3» stammt aus einem öffentlichen Quizlet-Set eines anderen Nutzers
- * (Link unten) und ist nur zum persönlichen Lernen gedacht – nicht ohne Erlaubnis veröffentlichen.
+ * «Englisch Voci 1.1+1.3» stammt aus einem Quizlet-Set (Link unten) und wird mit Einverständnis
+ * der Person geteilt, die es erstellt hat.
  * Leerzeichen-Fehler wurden aufgeräumt und sechs eindeutige Tippfehler korrigiert (siehe README).
  */
 window.VOCI_SETS = [
