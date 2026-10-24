@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Voci-Trainer</title>
+  <meta name="description" content="Vokabeln lernen mit Karteikarten, Lernen, Test und Zuordnen – im Browser, auch offline.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Gespeichertes Farbschema vor dem ersten Zeichnen setzen (kein Aufblitzen)
+    try { var t = localStorage.getItem('vt:theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <main id="app" tabindex="-1"></main>
+  <noscript><p style="padding:16px">Der Voci-Trainer braucht JavaScript.</p></noscript>
+
+  <script src="data/sets.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/views/home.js"></script>
+  <script src="js/views/editor.js"></script>
+  <script src="js/views/set.js"></script>
+  <script src="js/views/flashcards.js"></script>
+  <script src="js/views/learn.js"></script>
+  <script src="js/views/test.js"></script>
+  <script src="js/views/match.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
