@@ -3,7 +3,8 @@
  * Format pro Karte: [Begriff, Bedeutung]. Eigene Sets lassen sich auch direkt in der App erstellen.
  *
  * «Englisch Voci 1.1+1.3» stammt aus einem Quizlet-Set (Link unten) und wird mit Einverständnis
- * der Person geteilt, die es erstellt hat.
+ * der Person geteilt, die es erstellt hat. Zehn Wörter aus der Wortliste zu English File
+ * Upper-Intermediate (File 1) wurden ergänzt (nur Wort und Bedeutung).
  * Leerzeichen-Fehler wurden aufgeräumt und sechs eindeutige Tippfehler korrigiert (siehe README).
  */
 window.VOCI_SETS = [
@@ -366,6 +367,19 @@ window.VOCI_SETS = [
       ["To have a trial run", "Einen Probedurchlauf machen"],
       ["Mock interview", "Übungsinterview, gestelltes Interview"],
       ["To go for an interview", "Ein Bewerbungsgespräch haben"],
+      // ergänzt aus der Wortliste English File Upper-Intermediate, File 1.
+      // Neue Karten immer hinten anfügen: doppelte Karten bekommen ihre ID über die Position,
+      // ein Einfügen weiter oben würde deren Lernfortschritt zurücksetzen.
+      ["well-balanced", "ausgeglichen"],
+      ["well-behaved", "artig"],
+      ["to behave", "sich benehmen"],
+      ["behaviour", "das Benehmen"],
+      ["do the trick", "funktionieren, gehen"],
+      ["have something up your sleeve", "ein Ass im Ärmel haben"],
+      ["move on", "(zu etwas) übergehen, (mit etwas) fortfahren"],
+      ["play ball", "kooperieren, (sich an etwas) anpassen"],
+      ["print off", "(etwas) ausdrucken"],
+      ["stick at", "(an etwas) dranbleiben"],
     ],
   },
 ];

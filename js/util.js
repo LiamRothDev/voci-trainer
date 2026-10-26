@@ -89,7 +89,7 @@
       .trim();
 
   // Platzhalter, die beim Schreiben fehlen dürfen
-  const PLACEHOLDER = /\b(?:sb|sth|etw|jmdn|jmdm|jmds)(?:'s)?\b/g;
+  const PLACEHOLDER = /\b(?:sb|sth|etw|jmdn|jmdm|jmds|etwas|jemanden|jemandem|jemandes)(?:'s)?\b/g;
   // Wörter, mit denen ein Nebensatz beginnt – dann ist das Komma keine Aufzählung
   const LEAD_WORDS = new Set(['der', 'die', 'das', 'dass', 'um', 'wie', 'was', 'zu', 'wo', 'wenn', 'weil', 'als',
     'etw', 'etwas', 'jmdn', 'jmdm', 'jemanden', 'jemandem', 'sich', 'sb', 'sth', 'which', 'who', 'that']);
@@ -99,7 +99,8 @@
   function listParts(text) {
     const parts = text.split(/\s*[;,]\s*|\s+=\s+|\s+syn\.?\s+/).map((p) => p.trim()).filter(Boolean);
     if (parts.length < 2) return [];
-    const firstWord = (p) => VT.normalize(p).replace(/^hier /, '').split(' ')[0];
+    // Klammerinhalt zählt nicht: bei «(sich an etwas) anpassen» ist «anpassen» das erste Wort
+    const firstWord = (p) => VT.normalize(p.replace(/\([^)]*\)/g, ' ')).replace(/^hier /, '').split(' ')[0];
     const lead = firstWord(parts[0]);
     const ok = parts.every((p, i) => {
       if (/-$/.test(p)) return true; // «Stellen-, …» ist nur ein Wortteil – wird unten weggelassen

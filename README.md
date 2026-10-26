@@ -47,9 +47,10 @@ gibt es den Knopf «Ich hatte recht».
 
 ## Woher die Vokabeln stammen
 
-Das eingebaute Set «Englisch Voci 1.1+1.3» (348 Begriffe) stammt aus einem
+Das eingebaute Set «Englisch Voci 1.1+1.3» (358 Begriffe) stammt aus einem
 [Quizlet-Set](https://quizlet.com/de/karteikarten/englisch-voci-1113-1220432163) und wird mit Einverständnis
-der Person geteilt, die es erstellt hat.
+der Person geteilt, die es erstellt hat. Zehn Wörter, die dort fehlten, wurden aus der Wortliste zu
+English File Upper-Intermediate (File 1) ergänzt – nur Wort und deutsche Bedeutung.
 
 Beim Übernehmen wurden Leerzeichen-Fehler aufgeräumt (z. B. «etw . tun» → «etw. tun», «non - binary» → «non-binary»)
 und sechs eindeutige Tippfehler korrigiert:
